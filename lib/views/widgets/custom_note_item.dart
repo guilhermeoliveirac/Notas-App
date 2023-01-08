@@ -24,7 +24,7 @@ class NoteItem extends StatelessWidget {
             subtitle: Text(
               'teste de subtitulo',
               style:
-                  TextStyle(color: Colors.black.withOpacity(.5), fontSize: 20),
+                  TextStyle(color: Colors.black.withOpacity(.5), fontSize: 18),
             ),
             trailing: IconButton(
               onPressed: () {},
