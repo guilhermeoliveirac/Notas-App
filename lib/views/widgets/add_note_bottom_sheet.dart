@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:note/views/widgets/constants.dart';
+import 'package:note/views/widgets/custom_botton.dart';
 import 'package:note/views/widgets/custom_text_field.dart';
 
 class AddNoteBottomSheet extends StatelessWidget {
@@ -28,8 +30,12 @@ class AddNoteBottomSheet extends StatelessWidget {
           ),
           CustomTextField(
             hint: 'Escopo',
-            maxLines: 7,
+            maxLines: 13,
           ),
+          SizedBox(
+            height: 10,
+          ),
+          CustomBotton()
         ],
       ),
     );
